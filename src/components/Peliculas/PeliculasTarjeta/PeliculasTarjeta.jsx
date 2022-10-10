@@ -3,10 +3,10 @@ import './PeliculasTarjeta.css'
 
 const PeliculasTarjeta = (props) => {
   return (
-    <div>
+    <div className='-container-tarjets'>
       <img className="img" src={props.url} alt="" />
-      <h2>{props.name}</h2>
-      <p>Ests pelicula es buena</p>
+      <h2 className='-titulo-tarjet'>{props.name}</h2>
+      <p className='sub-titulo'>Esta pelicula es buena</p>
     </div>
   )
 }

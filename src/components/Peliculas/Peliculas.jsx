@@ -19,6 +19,11 @@ const Peliculas = () => {
         url="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/sD5mBllYcBR5sQTyR2VGYhpHf6B.jpg"
         name="Escupire sobre tu tumba"
       />
+
+      <PeliculasTarjeta
+        url="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/ac8fzjMXG171O0852T5Qp06Jl4z.jpg"
+        name="Los anillos de poder"
+      />
     </div>
   )
 }
