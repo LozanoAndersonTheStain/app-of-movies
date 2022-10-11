@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+    background-image: url(https://phantom-marca.unidadeditorial.es/3b7151c5db6be421546b864af3f67cc0/resize/660/f/webp/assets/multimedia/imagenes/2022/05/03/16516078307586.jpg);
+    background-color: rgba(rgb(0, 123, 255),rgb(0, 124, 146)n, rgb(0, 157, 255), alpha);
+}

@@ -1,31 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Kanit:wght@700&display=swap');
 
 .img {
-  width: 15rem;
-  height: 20rem;
+  width: 10rem;
+  height: 15rem;
   border-radius: 1rem;
 }
 
 .-container-tarjets {
+  width: 15rem;
   margin: 0.36rem;
   display: flex;
   text-align: center;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
   padding: 1.2rem;
   border: 1px solid;
   border-radius: 1rem;
   background-color: black;
 }
 
+.container-imagen {
+  border: 1px solid #fff;
+  border-radius: 1rem;
+  margin: auto;
+  padding: auto;
+  display: flex;
+}
+
 .-titulo-tarjet {
   font-family: 'Alkalami', serif;
   color: #fff;
   display: flex;
+  text-align: center;
 }
 
 .sub-titulo {
   font-family: 'Alkalami', serif;
+  color: #fff;
+}
+
+span a {
   color: #fff;
 }
