@@ -1,4 +1,5 @@
 .container-peliculas {
+  background-color: rgb(3, 3, 176);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

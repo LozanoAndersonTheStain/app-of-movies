@@ -7,51 +7,29 @@ const peliculasInfo = [
     id: 1,
     name: 'Abracadabra',
     url: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/t7CKYUNVdJePAfhvwSqlp4vsX68.jpg',
+    reseña:
+      'Es una pélicula que tal vez muchos han esperado por años, por fin las brujas regresan a la vida...',
   },
   {
     id: 2,
     name: 'Abracadabra',
     url: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/t7CKYUNVdJePAfhvwSqlp4vsX68.jpg',
+    reseña:
+      'Es una pélicula que tal vez muchos han esperado por años, por fin las brujas regresan a la vida...',
   },
   {
     id: 3,
     name: 'Abracadabra',
     url: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/t7CKYUNVdJePAfhvwSqlp4vsX68.jpg',
+    reseña:
+      'Es una pélicula que tal vez muchos han esperado por años, por fin las brujas regresan a la vida...',
   },
   {
     id: 4,
     name: 'Abracadabra',
     url: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/t7CKYUNVdJePAfhvwSqlp4vsX68.jpg',
-  },
-  {
-    id: 5,
-    name: 'Abracadabra',
-    url: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/t7CKYUNVdJePAfhvwSqlp4vsX68.jpg',
-  },
-  {
-    id: 6,
-    name: 'Abracadabra',
-    url: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/t7CKYUNVdJePAfhvwSqlp4vsX68.jpg',
-  },
-  {
-    id: 7,
-    name: 'Abracadabra',
-    url: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/t7CKYUNVdJePAfhvwSqlp4vsX68.jpg',
-  },
-  {
-    id: 8,
-    name: 'Abracadabra',
-    url: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/t7CKYUNVdJePAfhvwSqlp4vsX68.jpg',
-  },
-  {
-    id: 9,
-    name: 'Abracadabra',
-    url: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/t7CKYUNVdJePAfhvwSqlp4vsX68.jpg',
-  },
-  {
-    id: 10,
-    name: 'Abracadabra',
-    url: 'https://www.themoviedb.org/t/p/w600_and_h900_bestv2/t7CKYUNVdJePAfhvwSqlp4vsX68.jpg',
+    reseña:
+      'Es una pélicula que tal vez muchos han esperado por años, por fin las brujas regresan a la vida...',
   },
 ]
 
@@ -59,8 +37,12 @@ const Peliculas = () => {
   return (
     <div className="container-peliculas">
       {peliculasInfo.map((pelicula) => (
-        <PeliculasTarjeta url={pelicula.url} name={pelicula.name} />
-      ))}
+        <PeliculasTarjeta
+          url={pelicula.url}
+          name={pelicula.name}
+          reseña={pelicula.reseña}
+        />
+      ))} 
 
       {/* <PeliculasTarjeta
         url="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/xhBQorOLsX3jAIMh8c5MqkX6JXm.jpg"

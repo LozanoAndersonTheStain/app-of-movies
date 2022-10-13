@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-image: url(https://media.revistagq.com/photos/5eb5499da458ae53fb864fba/16:9/w_640,c_limit/peliculas-marvel.jpg);
+  background-repeat: no-repeat;
+  text-align: center;
+  height: 10rem;
+  background-size: cover;
+}
+
+.bienvenida {
+  font-size: 2rem;
+  color: rgb(255, 255, 255);
+}
+
+.mensaje-1 {
+  font-size: 1.25rem;
+  color: rgb(255, 255, 255);
+}
+
+.input-icono {
+  background-repeat: no-repeat;
+  background-position: 4px center;
+  background-size: 20px;
+  display: flex;
+  align-items: center;
+  width: 350px;
+  padding-left: 28px;
+  height: 30px;
+  border: 1px solid rgba(9, 113, 163, 1);
+  border-radius: 3px;
+  justify-content: center;
+}
+.input-icono input {
+  width: 80%;
+  font-size: 0.9em;
+  border: none;
+}
+
+.input-icono input:focus {
+  outline: none;
+}
